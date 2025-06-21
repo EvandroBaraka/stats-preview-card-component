@@ -1,0 +1,46 @@
+@media (max-width: 800px) {
+    .data {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 640px) {
+    .data {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column-reverse;
+        margin: 40px 20px;
+        max-height: none;
+    }   
+
+    .data, .hero {
+        min-width: 100%;
+    }
+
+    .hero img{
+        width: 100%;
+    }
+
+    .data {
+        text-align: center;
+        gap: 35px;
+    }
+
+    .data .info {
+        gap: 20px;
+        height: auto;
+    }
+
+    .data .info h1 {
+    font-size: 1.7em;
+}
+
+    .data .stats ul {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
